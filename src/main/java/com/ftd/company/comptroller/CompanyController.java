@@ -17,7 +17,7 @@ import com.ftd.company.model.Company;
 @RestController
 public class CompanyController {
 
-	@GetMapping("/api/company")
+	@GetMapping("/api/company/one")
 	public Company getAllCompanies() {
 		Company company = new Company();
 		company.companyName = "Alibaba";
